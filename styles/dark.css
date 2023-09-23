@@ -10,3 +10,84 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 }
+
+.page {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+
+
+}
+
+.content-section {
+  padding: 20px;
+}
+
+.decorated-zone {
+  width: 1024px;
+  height: 768px;
+  background-image: url("../images/cover-image-dark.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header__theme-menu-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.header__theme-menu-button {
+  width: 70px;
+  height: 26px;
+  padding: 1.5px 13px;
+  color: #FF0070;
+  text-align: center;
+  font-family:'IBM Plex Mono',sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  background-color: transparent;
+  border: none;
+  text-transform: lowercase;
+}
+
+.header_content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 114px;
+}
+
+.header_title {
+  display: inline-block;
+  color: #DB00FF;
+  text-shadow: 4px 4px 0 #FF0070;
+  font-family: "IBM Plex Mono",sans-serif;
+  font-size: 157px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 82.5%;
+  margin-left: -10px;
+}
+.header_text-block{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.header_text {
+  width: 491px;
+  color: #000028;
+  font-family: 'IBM Plex Mono', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 23.4px;
+  background-color: #FF0070;
+}
