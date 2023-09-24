@@ -34,7 +34,6 @@
     background-color: var(--theme_light_background);
 }
 
-
 .page.theme_light .header__theme-menu-button {
     color: var(--theme_light_content_font_color);
 }
@@ -50,6 +49,7 @@
 .page.theme_light .header__theme-menu-button:focus {
     border-bottom: 1px solid var(--theme_light_content_font_color);
 }
+
 .page.theme_light .recording{
     display: none;
 }

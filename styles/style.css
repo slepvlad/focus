@@ -253,19 +253,23 @@
   .page {
     max-width: 768px;
   }
+
   .header {
     min-height: 1024px;
   }
+
   .header__theme-menu-list {
     flex-direction: column;
     align-items: end;
     gap: 10px;
     padding-top: 10.844em;
   }
+
   .header__description {
     width: 364px;
     height: 117px;
   }
+
   .section-title {
     min-width: 236px;
     max-width: 236px;
@@ -278,9 +282,11 @@
   .page {
     max-width: 375px;
   }
+
   .header {
     min-height: 668px;
   }
+
   .main__title {
     word-wrap: normal;
   }
@@ -289,9 +295,11 @@
     width: 364px;
     height: 117px;
   }
+
   .section-title {
     max-width: 100%;
   }
+
   .main__section-item {
     flex-direction: column;
   }
@@ -299,6 +307,7 @@
   .why-section-reasons {
     flex-direction: column;
   }
+
   .gallery {
     display: grid;
     max-height: 100%;

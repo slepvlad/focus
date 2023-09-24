@@ -5,121 +5,120 @@
 */
 
 .page.theme_dark {
-    /* сохраните этот селектор в приведённом виде.
-      Так стили написанные ниже будут иметь больший вес,
-      чем стили в медиазапросе предпочтений пользователя
-    */
+  /* сохраните этот селектор в приведённом виде.
+    Так стили написанные ниже будут иметь больший вес,
+    чем стили в медиазапросе предпочтений пользователя
+  */
 }
 
 :root {
-    --theme_dark_background: #000028;
-    --theme_dark_title_background: #FF0070;
-    --theme_dark_title_font_color: #DB00FF;
-    --theme_dark_content_font_color: #F1B2CE;
+  --theme_dark_background: #000028;
+  --theme_dark_title_background: #FF0070;
+  --theme_dark_title_font_color: #DB00FF;
+  --theme_dark_content_font_color: #F1B2CE;
 }
 
 .page.theme_dark .header {
-    background-image: url("../images/cover-image-dark.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    object-fit: cover;
-    object-position: center;
+  background-image: url("../images/cover-image-dark.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  object-position: center;
 }
 
 .page.theme_dark main {
-    background-color: var(--theme_dark_background);
+  background-color: var(--theme_dark_background);
 }
 
 .page.theme_dark footer {
-    background-color: var(--theme_dark_background);
+  background-color: var(--theme_dark_background);
 }
 
 .page.theme_dark .header__theme-menu-button {
-    color: var(--theme_dark_title_background);
+  color: var(--theme_dark_title_background);
 }
 
 .page.theme_dark .header__theme-menu-button_active {
-    outline: 1px solid var(--theme_dark_title_background);
+  outline: 1px solid var(--theme_dark_title_background);
 }
 
 .page.theme_dark .header__theme-menu-button:hover {
-    outline: 1px solid var(--theme_dark_title_background);
+  outline: 1px solid var(--theme_dark_title_background);
 }
 
 .page.theme_dark .header__theme-menu-button:focus {
-    border-bottom: 1px solid var(--theme_dark_title_background);
+  border-bottom: 1px solid var(--theme_dark_title_background);
 }
 
 .page.theme_dark .recording {
-    display: flex;
-    position: absolute;
-    top: 20px;
-    right: 2.7em;
-    width: 43px;
-    height: 26px;
-    color: var(--theme_dark_title_background);
-    text-align: center;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px;
-    justify-items: center;
-    align-self: center;
+  display: flex;
+  position: absolute;
+  top: 20px;
+  right: 2.7em;
+  width: 43px;
+  height: 26px;
+  color: var(--theme_dark_title_background);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  justify-items: center;
+  align-self: center;
 }
 
-
 .page.theme_dark .recording::after {
-    display: flex;
-    content: url("../images/rec.svg");
-    align-self: center;
-    justify-self: center;
-    width: 23px;
-    height: 23px;
-    fill: var( --theme_dark_title_background);
-    filter: drop-shadow(0px 0px 4px var( --theme_dark_title_background));
-    padding-left: 4px;
+  display: flex;
+  content: url("../images/rec.svg");
+  align-self: center;
+  justify-self: center;
+  width: 23px;
+  height: 23px;
+  fill: var(--theme_dark_title_background);
+  filter: drop-shadow(0px 0px 4px var(--theme_dark_title_background));
+  padding-left: 4px;
 }
 
 .page.theme_dark .title__footer,
 .page.theme_dark .main__title {
-    color: var(--theme_dark_title_font_color);
-    text-shadow: 2px 2px var(--theme_dark_title_background);
+  color: var(--theme_dark_title_font_color);
+  text-shadow: 2px 2px var(--theme_dark_title_background);
 }
 
 .page.theme_dark .header__description {
-    background-color: var(--theme_dark_title_background);
-    color: var(--theme_dark_background);
+  background-color: var(--theme_dark_title_background);
+  color: var(--theme_dark_background);
 }
 
 .page.theme_dark .section-title {
-    color: var(--theme_dark_title_background);
+  color: var(--theme_dark_title_background);
 }
 
-.page.theme_dark .custom-link{
-    text-shadow: 2px 2px var(--theme_dark_title_background);
+.page.theme_dark .custom-link {
+  text-shadow: 2px 2px var(--theme_dark_title_background);
 }
 
 .page.theme_dark .custom-link:focus {
-    outline: 1px solid var(--theme_dark_content_font_color);
+  outline: 1px solid var(--theme_dark_content_font_color);
 }
 
-.page.theme_dark .reason-title{
-    color: var(--theme_dark_background);
-    background-color: var(--theme_dark_title_background);
+.page.theme_dark .reason-title {
+  color: var(--theme_dark_background);
+  background-color: var(--theme_dark_title_background);
 }
 
-.page.theme_dark  .reason-content{
-    color: var(--theme_dark_content_font_color);
+.page.theme_dark .reason-content {
+  color: var(--theme_dark_content_font_color);
 }
 
 .page.theme_dark .footer-section::before,
 .page.theme_dark .decorated-zone::after {
-    border-bottom: 1px solid var(--theme_dark_title_background);
-    border-left: 1px solid var(--theme_dark_title_background);
+  border-bottom: 1px solid var(--theme_dark_title_background);
+  border-left: 1px solid var(--theme_dark_title_background);
 }
 
 .page.theme_dark .footer-section::after,
 .page.theme_dark .decorated-zone::before {
-    border-top: 1px solid var(--theme_dark_title_background);
-    border-right: 1px solid var(--theme_dark_title_background);
+  border-top: 1px solid var(--theme_dark_title_background);
+  border-right: 1px solid var(--theme_dark_title_background);
 }
