@@ -10,3 +10,90 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 }
+
+:root{
+    --theme_light_background: #FFF1F7;
+    --theme_light_title_background: #FF0070;
+    --theme_light_title_font_color: #FF8DCB;
+    --theme_light_content_font_color: #353430;
+}
+
+.page.theme_light .header {
+    background-image: url("../images/cover-image-light.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    object-position: center;
+}
+
+.page.theme_light main {
+    background-color: var(--theme_light_background);
+}
+
+.page.theme_light footer {
+    background-color: var(--theme_light_background);
+}
+
+
+.page.theme_light .header__theme-menu-button {
+    color: var(--theme_light_content_font_color);
+}
+
+.page.theme_light .header__theme-menu-button_active {
+    outline: 1px solid var(--theme_light_content_font_color);
+}
+
+.page.theme_light .header__theme-menu-button:hover {
+    outline: 1px solid var(--theme_light_content_font_color);
+}
+
+.page.theme_light .header__theme-menu-button:focus {
+    border-bottom: 1px solid var(--theme_light_content_font_color);
+}
+.page.theme_light .recording{
+    display: none;
+}
+
+.page.theme_light .title__footer,
+.page.theme_light .main__title {
+    color: var(--theme_light_title_font_color);
+    text-shadow: 2px 2px var(--theme_light_title_background);
+}
+
+.page.theme_light .header__description {
+    background-color: var(--theme_light_title_font_color);
+    color: var(--theme_light_content_font_color);
+}
+
+.page.theme_light .section-title {
+    color: var(--theme_light_content_font_color);
+}
+
+.page.theme_light .custom-link{
+    text-shadow: 2px 2px var(--theme_light_title_font_color);
+}
+
+.page.theme_light .custom-link:focus {
+    outline: 1px solid var(--theme_light_content_font_color);
+}
+
+.page.theme_light .reason-title{
+    color: var(--theme_light_content_font_color);
+    background-color: var(--theme_light_title_font_color);
+}
+
+.page.theme_light  .reason-content{
+    color: var(--theme_light_content_font_color);
+}
+
+.page.theme_light .footer-section::before,
+.page.theme_light .decorated-zone::after {
+    border-bottom: 1px solid var(--theme_light_content_font_color);
+    border-left: 1px solid var(--theme_light_content_font_color);
+}
+
+.page.theme_light .footer-section::after,
+.page.theme_light .decorated-zone::before {
+    border-top: 1px solid var(--theme_light_content_font_color);
+    border-right: 1px solid var(--theme_light_content_font_color);
+}
