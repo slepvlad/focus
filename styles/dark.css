@@ -75,8 +75,8 @@
     justify-self: center;
     width: 23px;
     height: 23px;
-    fill: var(--neon-color);
-    filter: drop-shadow(0px 0px 4px var(--neon-color));
+    fill: var( --theme_dark_title_background);
+    filter: drop-shadow(0px 0px 4px var( --theme_dark_title_background));
     padding-left: 4px;
 }
 
