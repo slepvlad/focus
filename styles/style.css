@@ -340,8 +340,8 @@
 
   .main__section-item {
     flex-direction: column;
-    padding-top: 8vh;
-    padding-bottom: 0;
+    padding-top: 6vh;
+    padding-bottom: 1vh;
   }
 
   .why-section-reasons {
