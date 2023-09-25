@@ -284,11 +284,12 @@
 
   .why-section-reasons {
     flex-direction: column;
+    gap: 22px;
   }
 
   .main__gallery {
     padding-top: 7vh;
-    padding-bottom: 5.5vh;
+    padding-bottom: 6vh;
   }
 
   .footer-section {
