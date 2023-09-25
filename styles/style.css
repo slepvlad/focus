@@ -86,8 +86,6 @@
   display: inline-block;
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   font-weight: 700;
-  /*FixMe broke script*/
-  /*line-height: 129px;*/
   word-wrap: break-word;
 }
 
