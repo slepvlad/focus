@@ -350,6 +350,7 @@
 
   .main__gallery {
     padding-top: 8vh;
+    gap: 10px;
   }
 
   .gallery {
