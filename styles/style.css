@@ -362,6 +362,10 @@
     'img3'
     'img4'
     'img5';
-    gap: 20px
+    gap: 11px
+  }
+
+  .footer-section {
+    min-height: 668px;
   }
 }
