@@ -1,5 +1,5 @@
 .page.theme_light {
-  background-image: url("../images/cover-image-light.png");
+  background: url("../images/cover-image-light.png"), var(--theme_light_background);
   background-size: cover;
   background-repeat: no-repeat;
   object-fit: cover;
@@ -12,14 +12,6 @@
   --theme_light_title_background: #FF0070;
   --theme_light_title_font_color: #FF8DCB;
   --theme_light_content_font_color: #353430;
-}
-
-.page.theme_light main {
-  background-color: var(--theme_light_background);
-}
-
-.page.theme_light footer {
-  background-color: var(--theme_light_background);
 }
 
 .page.theme_light .header__theme-menu-button {

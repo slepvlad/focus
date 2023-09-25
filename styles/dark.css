@@ -1,6 +1,6 @@
 
 .page.theme_dark {
-  background-image: url("../images/cover-image-dark.png");
+  background: url("../images/cover-image-dark.png"), var(--theme_dark_background);
   background-size: cover;
   background-repeat: no-repeat;
   object-fit: cover;
@@ -13,14 +13,6 @@
   --theme_dark_title_background: #FF0070;
   --theme_dark_title_font_color: #DB00FF;
   --theme_dark_content_font_color: #F1B2CE;
-}
-
-.page.theme_dark main {
-  background-color: var(--theme_dark_background);
-}
-
-.page.theme_dark footer {
-  background-color: var(--theme_dark_background);
 }
 
 .page.theme_dark .header__theme-menu-button {
