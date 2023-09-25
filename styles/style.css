@@ -304,12 +304,9 @@
     max-width: 375px;
   }
 
-  .content-section {
-    padding: 0 20px 0;
-  }
-
   .header {
     min-height: 668px;
+    padding-left: 0;
   }
 
   .header__theme-menu-list {
