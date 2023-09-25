@@ -305,12 +305,11 @@
   }
 
   .content-section {
-    padding-left: 0;
+    padding: 0 10px;
   }
 
   .header {
     min-height: 668px;
-    padding-left: 0;
   }
 
   .header__theme-menu-list {
