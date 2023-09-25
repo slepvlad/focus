@@ -313,19 +313,17 @@
     padding-top: 4em;
   }
 
-  .main__title {
-    word-wrap: normal;
-  }
-
-  .header__description {
+   .header__description {
     width: 364px;
     height: 117px;
   }
 
   .main__title {
+    word-wrap: normal;
     margin-block-start: 10vh;
     line-height: 80%;
     margin-block-end: 8vh;
+    margin-left: 0;
   }
 
   .section-title {
