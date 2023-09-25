@@ -341,7 +341,7 @@
   .main__section-item {
     flex-direction: column;
     padding-top: 6vh;
-    padding-bottom: 1vh;
+    padding-bottom: 2vh;
   }
 
   .why-section-reasons {
@@ -349,7 +349,7 @@
   }
 
   .main__gallery {
-    padding-top: 8vh;
+    padding-top: 6vh;
     gap: 10px;
   }
 
