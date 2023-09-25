@@ -256,8 +256,8 @@
   }
 
   .main__title {
-    margin-block-start: 13vh;
-    margin-block-end: 12vh;
+    margin-block-start: 10vh;
+    margin-block-end: 9vh;
   }
 
   .header__theme-menu-list {
@@ -277,8 +277,18 @@
     max-width: 236px;
   }
 
+  .main__section-item {
+    padding-top: 6vh;
+    padding-bottom: 2vh;
+  }
+
   .why-section-reasons {
     flex-direction: column;
+  }
+
+  .main__gallery {
+    padding-top: 7vh;
+    padding-bottom: 5.5vh;
   }
 
   .footer-section {
