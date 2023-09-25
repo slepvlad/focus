@@ -304,6 +304,10 @@
     max-width: 375px;
   }
 
+  .content-section {
+    padding-left: 0;
+  }
+
   .header {
     min-height: 668px;
     padding-left: 0;
