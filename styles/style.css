@@ -276,6 +276,14 @@
     min-width: 236px;
     max-width: 236px;
   }
+
+  .why-section-reasons {
+    flex-direction: column;
+  }
+
+  .footer-section {
+    min-height: 1024px;
+  }
 }
 
 /*mobile*/
