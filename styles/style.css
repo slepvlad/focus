@@ -318,6 +318,10 @@
     height: 117px;
   }
 
+  .header__description-item {
+    padding-bottom: 5em;
+  }
+
   .main__title {
     word-wrap: normal;
     margin-block-start: 10vh;
