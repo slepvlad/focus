@@ -366,6 +366,7 @@
   }
 
   .footer-section {
-    min-height: 668px;
+    min-height: 699px;
+    padding-top: 46px;
   }
 }
