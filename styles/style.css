@@ -17,6 +17,7 @@
 
 .decorated-zone {
   padding-top: 1.25em;
+  padding-bottom: 7px;
 }
 
 .header {
@@ -26,7 +27,6 @@
   min-height: 768px;
   flex-direction: column;
   justify-content: space-between;
-  margin-left: -0.688em;
 }
 
 .decorated-zone::after {
@@ -109,8 +109,8 @@
 }
 
 .main__section-item {
-  padding-top: 3.75em;
-  min-height: 508px;
+  padding-top: 56px;
+  padding-bottom: 28px;
   display: flex;
   gap: 20px;
 }
@@ -131,7 +131,7 @@
 .why-section-reasons {
   flex-grow: 1;
   display: flex;
-  gap: 20px;
+  gap: 23px;
 }
 
 .why-section-reasons-item {
