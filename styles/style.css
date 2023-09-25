@@ -24,7 +24,6 @@
   position: relative;
   display: flex;
   width: 100%;
-  min-height: 768px;
   flex-direction: column;
   justify-content: space-between;
 }
