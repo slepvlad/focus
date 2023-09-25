@@ -103,3 +103,11 @@
   border-top: 1px solid var(--theme_dark_title_background);
   border-right: 1px solid var(--theme_dark_title_background);
 }
+
+@media screen and (width <768px) {
+  .page.theme_dark .recording {
+    right: 1.31em;
+    width: 46px;
+    height: 28px;
+  }
+}
