@@ -171,7 +171,7 @@
 /*Section Pictures*/
 
 .main__gallery {
-  padding: 60px;
+  padding: 60px 0;
   display: flex;
   flex-direction: column;
   gap: 20px;
