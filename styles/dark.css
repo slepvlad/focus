@@ -1,4 +1,3 @@
-
 .page.theme_dark {
   background: url("../images/cover-image-dark.png"), var(--theme_dark_background);
   background-size: cover;
