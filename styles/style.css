@@ -321,8 +321,8 @@
     }
 
     .main__title {
-        margin-block-start: 10vh;
-        margin-block-end: 9vh;
+        margin-block-start: 68px;
+        margin-block-end: 56px;
     }
 
     .header__theme-menu-list {
@@ -385,6 +385,10 @@
     .header__description {
         width: 364px;
         height: 117px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px; /* 130% */
     }
 
     .header__description-item {
@@ -392,11 +396,19 @@
     }
 
     .main__title {
-        word-wrap: normal;
-        margin-block-start: 10vh;
-        line-height: 80%;
-        margin-block-end: 8vh;
-        margin-left: 0;
+        font-size: 116px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 82.5%;
+        margin-left: 1px;
+    }
+
+    .title__footer {
+        padding-top: 7px;
+        font-size: 116px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 82.5%;
     }
 
     .section-title {
