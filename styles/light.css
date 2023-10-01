@@ -9,6 +9,7 @@
   --accent_title_font_color: #353430;
   --accent_title_background_color: #FF8DCB;
   --main_section_title_font_color: #353430;
+  --button_color_hover:rgba(50, 49, 45, 0.40);
 }
 
 @media (prefers-color-scheme: light) {
@@ -22,4 +23,5 @@
   --accent_title_font_color: #353430;
   --accent_title_background_color: #FF8DCB;
   --main_section_title_font_color: #353430;
+  --button_color_hover:rgba(50, 49, 45, 0.40);
 }
