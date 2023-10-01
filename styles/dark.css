@@ -1,8 +1,4 @@
 .page.theme_dark {
-  /*    for script*/
-}
-
-:root .page.theme_dark {
   --theme_background_image: url("../images/cover-image-dark.png");
   --theme_background: #000028;
   --theme_title_background: #FF0070;

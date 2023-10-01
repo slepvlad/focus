@@ -1,31 +1,25 @@
 .page.theme_light {
-/*    for script*/
-}
-
-:root .page.theme_light {
-    --theme_background_image: url("../images/cover-image-light.png");
-    --theme_background: #FFF1F7;
-    --theme_title_background: #FF0070;
-    --theme_title_font_color: #FF8DCB;
-    --theme_content_font_color: #353430;
-    --theme_rec_visibillity: none;
-    --button_color: #353430;
-    --accent_title_font_color: #353430;
-    --accent_title_background_color: #FF8DCB;
-    --main_section_title_font_color: #353430;
+  --theme_background_image: url("../images/cover-image-light.png");
+  --theme_background: #FFF1F7;
+  --theme_title_background: #FF0070;
+  --theme_title_font_color: #FF8DCB;
+  --theme_content_font_color: #353430;
+  --theme_rec_visibillity: none;
+  --button_color: #353430;
+  --accent_title_font_color: #353430;
+  --accent_title_background_color: #FF8DCB;
+  --main_section_title_font_color: #353430;
 }
 
 @media (prefers-color-scheme: light) {
-    :root {
-        --theme_background_image: url("../images/cover-image-light.png");
-        --theme_background: #FFF1F7;
-        --theme_title_background: #FF0070;
-        --theme_title_font_color: #FF8DCB;
-        --theme_content_font_color: #353430;
-        --theme_rec_visibillity: none;
-        --button_color: #353430;
-        --accent_title_font_color: #353430;
-        --accent_title_background_color: #FF8DCB;
-        --main_section_title_font_color: #353430;
-    }
+  --theme_background_image: url("../images/cover-image-light.png");
+  --theme_background: #FFF1F7;
+  --theme_title_background: #FF0070;
+  --theme_title_font_color: #FF8DCB;
+  --theme_content_font_color: #353430;
+  --theme_rec_visibillity: none;
+  --button_color: #353430;
+  --accent_title_font_color: #353430;
+  --accent_title_background_color: #FF8DCB;
+  --main_section_title_font_color: #353430;
 }
