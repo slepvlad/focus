@@ -94,7 +94,32 @@
 }
 
 .recording {
-    display: var(--theme_rec_visibillity);
+  display: var(--theme_rec_visibillity);
+  position: absolute;
+  top: 20px;
+  right: 2.313em;
+  width: 43px;
+  height: 26px;
+  color: var(--theme_title_background);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  justify-items: center;
+  align-self: center;
+}
+
+.recording::after {
+  display: var(--theme_rec_visibillity);
+  content: url("../images/rec.svg");
+  align-self: center;
+  justify-self: center;
+  width: 23px;
+  height: 23px;
+  fill: var(--theme_title_background);
+  filter: drop-shadow(0px 0px 4px var(--theme_title_background));
+  padding-left: 4px;
 }
 
 .main__title {
