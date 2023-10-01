@@ -10,6 +10,7 @@
   --accent_title_background_color:#FF0070;
   --main_section_title_font_color: #FF0070;
   --button_color_hover:rgba(255, 0, 112, 0.40);
+  --link_decoration_color:#FF0070;
 }
 
 @media screen and (width <768px) {

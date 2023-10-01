@@ -46,7 +46,8 @@ button {
   background-color: transparent;
   border: none;
 }
-
+a:focus,
+a:focus-visible,
 button:focus,
 button:focus-visible {
   outline: none;

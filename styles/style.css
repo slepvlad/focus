@@ -210,7 +210,7 @@
 
 .custom-link {
     text-decoration: none;
-    text-shadow: 2px 2px var(--theme_title_background);
+    text-shadow: 2px 2px var(--link_decoration_color);
 }
 
 .custom-link:hover {
@@ -295,6 +295,7 @@
 .footer-section {
     width: 100%;
     min-height: 768px;
+    heigt:100vh;
     padding: 20px;
     display: flex;
     align-items: center;
