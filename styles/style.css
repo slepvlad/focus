@@ -12,7 +12,8 @@
 }
 
 .content-section {
-  padding: 0 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 /*Header Section*/
@@ -131,8 +132,8 @@
 
 .main__title {
   margin-left: -20px;
-  margin-block-start: 31vh;
-  margin-block-end: 10vh;
+  margin-block-start: 16vh;
+  margin-block-end: -4vh;
   text-shadow: 4px 4px 0 var(--theme_title_background);
 }
 
@@ -151,7 +152,7 @@
 .header__description-item {
   display: flex;
   justify-content: end;
-  padding-bottom: 7.125em;
+  /*padding-bottom: 7.125em;*/
 }
 
 .header__description {
@@ -295,7 +296,7 @@
 
 .footer-section {
   width: 100%;
-  min-height: 768px;
+  min-height: 786px;
   height: 100vh;
   padding: 20px;
   display: flex;
@@ -323,15 +324,15 @@
   }
 
   .main__title {
-    margin-block-start: 68px;
-    margin-block-end: 56px;
+    margin-block-start: -15px;
+    margin-block-end: -27px;
   }
 
   .header__theme-menu-list {
     flex-direction: column;
     align-items: end;
     gap: 10px;
-    padding-top: 10.844em;
+    padding-top: 171px;
   }
 
   .header__description {
@@ -359,7 +360,11 @@
   }
 
   .footer-section {
-    min-height: 1024px;
+    min-height: 1041px;
+  }
+
+  .title__footer {
+      padding-top: 5px;
   }
 }
 
@@ -371,12 +376,19 @@
   }
 
   .content-section {
-    padding: 0 10px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .header {
     padding-top: 10px;
     min-height: 668px;
+    padding-bottom: 10px;
+  }
+
+  .main__title {
+    margin-block-start: 40px;
+    margin-block-end: 24px;
   }
 
   .header__theme-menu-list {
@@ -391,7 +403,13 @@
   }
 
   .header__description-item {
-    padding-bottom: 5em;
+    /*padding-bottom: 5em;*/
+  }
+
+  .recording {
+    top: 10px;
+    right: 1.31em;
+    width: 46px;
   }
 
   .main__title {
@@ -399,7 +417,7 @@
   }
 
   .title__footer {
-    padding-top: 7px;
+    padding-top: 26px;
   }
 
   .title {
@@ -415,10 +433,12 @@
 
   .main__section-item {
     flex-direction: column;
+    padding-bottom: 15px;
   }
 
   .main__gallery {
     gap: 10px;
+    padding-bottom: 0;
   }
 
   .gallery {
@@ -434,7 +454,12 @@
   }
 
   .footer-section {
-    min-height: 699px;
+    min-height: 716px;
     padding-top: 46px;
+  }
+
+  .decorated-zone::after {
+    margin-block-start: 16px;
+    margin-block-end: -17px;
   }
 }
